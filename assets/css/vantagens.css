@@ -75,7 +75,7 @@
   line-height: 90px;
   text-align: center;
   font-size: 25px;
-  color: #ecbf2c;
+  color: #5561ab;
   border: 2px solid #ecbf2c;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -99,23 +99,7 @@
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ecbf2c;
-  transition: .3s ease-out;
-  -webkit-transition: .3s ease-out;
-  -moz-transition: .3s ease-out;
-  -ms-transition: .3s ease-out;
-  -o-transition: .3s ease-out;
-}
-
-.more-vantagens:hover .more-vantagens-text > h3 {
-  padding-left: 20px;
-}
-
-.more-vantagens:hover .more-vantagens-text > h3::before {
-  content: '>';
-  position: absolute;
-  top: 0;
-  left: 0;
+  color: #5561ab;
 }
 
 .more-vantagens-text > p {

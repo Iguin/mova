@@ -1,0 +1,71 @@
+.section-fale-conosco {
+  background-color: #FFFFFF;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-info-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #ecbf2c;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.contact-info-text {
+  width: calc(100% - 50px);
+  padding-left: 10px;
+}
+
+.contact-info-text p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.contact-form .form-input {
+  margin-bottom: 15px;
+}
+
+.contact-form .form-input input, .contact-form .form-input textarea {
+  width: 100%;
+  border: none;
+  background-color: #F2F4F8;
+  padding: 15px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.contact-form form button {
+  width: 100%;
+  font-size: 14px;
+  background-color: #ecbf2c;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 0;
+  border-radius: 3px;
+  font-weight: 900;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+
+.contact-form form button:hover {
+  background-color: #faca2e;
+}
