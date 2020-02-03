@@ -1,11 +1,18 @@
+.app-info {
+  margin-bottom: 20px;
+}
 
-.app-info-number {
+.app-img > img {
+  max-width: 300px;
+}
+
+.app-info-icon {
   width: 90px;
   height: 90px;
   line-height: 90px;
   text-align: center;
-  font-size: 25px;
-  color: #ecbf2c;
+  font-size: 35px;
+  color: #eba350;
   border: 2px solid #ecbf2c;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -19,6 +26,11 @@
   -o-transition: .2s ease-out;
 }
 
+.app-info:hover .app-info-icon {
+  background-color: #ecbf2c;
+  color: #FFFFFF;
+}
+
 .app-info-text {
   width: calc(100% - 100px);
   padding-left: 15px;
@@ -29,23 +41,37 @@
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
+  margin: 0;
   color: #ecbf2c;
-  transition: .3s ease-out;
-  -webkit-transition: .3s ease-out;
-  -moz-transition: .3s ease-out;
-  -ms-transition: .3s ease-out;
-  -o-transition: .3s ease-out;
 }
 
-.app-info:hover .app-info-text > h3 {
-  padding-left: 20px;
+.app-info .app-info-text > h3::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #ecbf2c;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
 }
 
-.app-info:hover .app-info-text > h3::before {
-  content: '>';
-  position: absolute;
-  top: 0;
-  left: 0;
+.app-info:hover .app-info-text > h3::after {
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
 }
 
 .app-info-text > p {
@@ -54,7 +80,23 @@
   margin: 0;
 }
 
-.app-info:hover .app-info-number {
-  background-color: #ecbf2c;
+.google-download-btn > a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #5561ab;
+  border-radius: 3px;
   color: #FFFFFF;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+
+.google-download-btn > a:hover {
+  text-decoration: none;
+  background-color: #3443a3;
 }

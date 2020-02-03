@@ -18,12 +18,12 @@ body {
 
 .default-btn {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 9px 20px;
   font-weight: 500;
   background-color: #ecbf2c;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -38,6 +38,7 @@ body {
 .default-btn:hover { text-decoration: none; }
 
 .default-btn.white { background-color: #FFFFFF; color: #ecbf2c; }
+.default-btn.blue { background-color: #5561ab; color: #FFFFFF; }
 .default-btn.white:hover { background-color: #ecbf2c; color: #FFFFFF; }
 
 
