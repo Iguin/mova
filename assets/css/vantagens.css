@@ -69,3 +69,63 @@
   font-size: 14px;
   opacity: 0.8;
 }
+
+.more-vantagens-number {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  font-size: 25px;
+  color: #ecbf2c;
+  border: 2px solid #ecbf2c;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+
+.more-vantagens-text {
+  width: calc(100% - 100px);
+  padding-left: 15px;
+}
+
+.more-vantagens-text > h3 {
+  position: relative;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ecbf2c;
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}
+
+.more-vantagens:hover .more-vantagens-text > h3 {
+  padding-left: 20px;
+}
+
+.more-vantagens:hover .more-vantagens-text > h3::before {
+  content: '>';
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.more-vantagens-text > p {
+  opacity: 0.8;
+  font-size: 12px;
+  margin: 0;
+}
+
+.more-vantagens:hover .more-vantagens-number {
+  background-color: #ecbf2c;
+  color: #FFFFFF;
+}
