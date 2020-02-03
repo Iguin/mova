@@ -1,0 +1,71 @@
+.section-vantagens {
+  padding: 100px 0;
+  margin-top: 50px;
+}
+
+.vantagem-card {
+  position: relative;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px 50px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}
+
+.vantagem-card:hover {
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+.vantagem-card-icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 45px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ecbf2c;
+  color: #FFFFFF;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.vantagem-card-text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.vantagem-card-text h3 {
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+
+.vantagem-card:hover .vantagem-card-text h3 {
+  color: #ecbf2c;
+}
+
+.vantagem-card-text p {
+  font-size: 14px;
+  opacity: 0.8;
+}

@@ -1,0 +1,48 @@
+@import './bootstrap/bootstrap.min.css';
+@import './fontawesome/css/all.min.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
+@import './header.css';
+@import './vantagens.css';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F2F4F8;
+  color: #2C2C2C;
+}
+
+.default-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  font-weight: 500;
+  background-color: #ecbf2c;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -ms-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+}
+.default-btn:hover { text-decoration: none; }
+
+.default-btn.white { background-color: #FFFFFF; color: #ecbf2c; }
+.default-btn.white:hover { background-color: #ecbf2c; color: #FFFFFF; }
+
+.default-title h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.default-title h5 {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.5;
+  max-width: 560px;
+  margin: 0 auto;
+}
