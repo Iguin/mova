@@ -3,11 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
 @import './header.css';
 @import './vantagens.css';
+@import './diferenciais.css';
+@import './aplicativo.css';
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F2F4F8;
   color: #2C2C2C;
+}
+
+.sections {
+  padding: 100px 0;
 }
 
 .default-btn {
@@ -34,10 +40,19 @@ body {
 .default-btn.white { background-color: #FFFFFF; color: #ecbf2c; }
 .default-btn.white:hover { background-color: #ecbf2c; color: #FFFFFF; }
 
+
+.default-title.limited-width {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .default-title h1 {
   font-size: 30px;
   font-weight: 700;
+  margin-bottom: 20px;
 }
+.default-title h1 span { color: #ecbf2c; }
+.default-title.white h1 { color: #FFFFFF; }
 
 .default-title h5 {
   font-size: 14px;

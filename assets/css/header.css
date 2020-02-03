@@ -1,9 +1,13 @@
 .section-home {
-  background-image: url('../images/section-home-bg.png');
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  position: relative;
+}
+
+.section-home > img.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120%;
+  width: 100%;
 }
 
 .page-topbar {
@@ -61,7 +65,7 @@
 }
 
 .section-home-info {
-  margin-top: 30%;
+  margin-top: 150px;
 }
 
 .section-home-info > h1 {
@@ -77,5 +81,10 @@
 }
 
 .section-home-phone-demo {
-  margin-top: 10%;
+  margin-top: 50px;
+}
+
+.section-home-phone-demo img {
+  width: 100%;
+  max-width: 250px;
 }
