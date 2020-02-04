@@ -1,5 +1,6 @@
 .section-diferenciais {
   padding: 100px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#eba350), to(#ebc850));
   background-image: linear-gradient(90deg, #eba350, #ebc850);
 }
 

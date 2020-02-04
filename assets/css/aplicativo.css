@@ -58,7 +58,8 @@
   -moz-transition: .2s ease-out;
   -ms-transition: .2s ease-out;
   -o-transition: .2s ease-out;
-  transform-origin: left;
+  -webkit-transform-origin: left;
+          transform-origin: left;
   transform: scaleX(0);
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);

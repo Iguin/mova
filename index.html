@@ -11,41 +11,56 @@
 </head>
 <body>
   
-  <main>
+  <div id="loading" class="d-flex align-items-center justify-content-center">
+    <div class="spinner-grow" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <main class="page-container">
     <!-- SESSÃO HOME -->
     <section class="section-home">
       <img src="./assets/images/section-home-bg.png" class="bg" />
       <header class="page-topbar">
-        <nav class="container page-topbar-container">
-          <div class="row align-items-center">
-            <div class="col-md-4 col-6">
-              <div class="page-logo">
-                <h1>Mova</h1>
+        <div class="d-flex align-items-center page-topbar-container">
+          <nav class="container page-topbar-content">
+            <div class="row align-items-center">
+              <div class="col-lg-4 col-6">
+                <div class="page-logo">
+                  <h1>Mova</h1>
+                </div>
+              </div>
+              <div class="col-6 menu-icon-container">
+                <div id="menu-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="col-lg-8 position-static">
+                <div class="page-topbar-menu">
+                  <ul class="page-topbar-items">
+                    <li class="page-topbar-item">
+                      <a href="#" section-target="vantagens">Vantagens</a>
+                    </li>
+                    <li class="page-topbar-item">
+                      <a href="#" section-target="diferenciais">Diferenciais</a>
+                    </li>
+                    <li class="page-topbar-item">
+                      <a href="#" section-target="aplicativo">Aplicativo</a>
+                    </li>
+                    <li class="page-topbar-item">
+                      <a href="#" section-target="contato">Contato</a>
+                    </li>
+                    <li class="page-topbar-item btn-download-app">
+                      <a href="#">Baixar app</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-6">
-              <div class="page-topbar-menu">
-                <ul class="page-topbar-items">
-                  <li class="page-topbar-item">
-                    <a href="#">Vantagens</a>
-                  </li>
-                  <li class="page-topbar-item">
-                    <a href="#">Diferencias</a>
-                  </li>
-                  <li class="page-topbar-item">
-                    <a href="#">Aplicativo</a>
-                  </li>
-                  <li class="page-topbar-item">
-                    <a href="#">Contato</a>
-                  </li>
-                  <li class="page-topbar-item btn-download-app">
-                    <a href="#">Baixar app</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
       <div class="container section-home-infos">
         <div class="row">
@@ -78,7 +93,7 @@
     <!-- FIM DA SESSÃO HOME -->
     
     <!-- SESSÃO VANTAGENS -->
-    <section class="sections section-vantagens">
+    <section class="sections section-vantagens" id="vantagens">
       <div class="container">
         <div class="default-title text-center">
           <h1>Vantagens</h1>
@@ -206,7 +221,7 @@
     <!-- FIM DA SESSÃO VANTAGENS -->
     
     <!-- SESSÃO DIFERENCIAIS -->
-    <section class="sections section-diferenciais">
+    <section class="sections section-diferenciais" id="diferenciais">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -239,7 +254,7 @@
     <!-- FIM DA SESSÃO DIFERENCIAIS -->
 
     <!-- SESSÃO APLICATIVO -->
-    <section class="sections section-app">
+    <section class="sections section-app" id="aplicativo">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -333,7 +348,7 @@
     <!-- FIM DA SESSÃO APLICATIVO -->
 
     <!-- SESSÃO FALE CONOSCO -->
-    <section class="sections section-fale-conosco">
+    <section class="sections section-fale-conosco" id="contato">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -457,5 +472,6 @@
 
   <script src="./assets/js/bootstrap/bootstrap.js"></script>
   <script src="./assets/js/fontawesome/all.min.js"></script>
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>

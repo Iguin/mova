@@ -1,0 +1,83 @@
+@media screen and (max-width: 992px) {
+
+  .menu-icon-container {
+    display: block;
+  }
+
+  .page-topbar-menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 30px 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transition: .3s ease-out;
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    -ms-transition: .3s ease-out;
+    -o-transition: .3s ease-out;
+  }
+
+  .page-topbar-container.fixed .page-topbar-menu {
+    top: 50px;
+  }
+  .page-topbar-menu.show-menu {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+
+  .page-topbar-items > li {
+    display: block;
+  }
+
+  .page-topbar-container .page-topbar-items > li > a {
+    color: #2C2C2C;
+  }
+ 
+  .section-home > img.bg {
+    display: none;
+  }
+
+  .section-home {
+    background-color: #2c2c2c;
+  }
+
+  .section-home-info {
+    margin: 50px 0;
+  }
+ 
+  .section-home-phone-demo {
+    display: none !important;
+  }
+
+  .section-home-phone-demo {
+    display: none !important;
+  }
+
+  .vantagem-card,
+  .more-vantagens {
+    margin-bottom: 30px;
+  }
+ 
+  #vantagens .row.mt-5 {
+    margin-top: 0 !important;
+  }
+ 
+  .diferenciais-text {
+    margin-top: 50px;
+  }
+
+  #aplicativo .app-img {
+    display: none;
+  }
+
+}

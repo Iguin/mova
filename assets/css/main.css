@@ -7,11 +7,21 @@
 @import './aplicativo.css';
 @import './fale-conosco.css';
 @import './footer.css';
+@import './loading.css';
+@import './responsive.css';
+
+html, body {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F2F4F8;
   color: #2C2C2C;
+}
+
+.page-container {
+  overflow: hidden;
 }
 
 .sections {

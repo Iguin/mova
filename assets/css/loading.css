@@ -1,0 +1,23 @@
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  z-index: 100;
+  transition: .3s ease-out;
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+}
+
+#loading.loaded {
+  pointer-events: none;
+  opacity: 0;
+}
+
+#loading .spinner-grow {
+  color: #ecbf2c;
+}
