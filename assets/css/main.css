@@ -9,6 +9,7 @@
 @import './footer.css';
 @import './loading.css';
 @import './responsive.css';
+@import './animated-display.css';
 
 html, body {
   scroll-behavior: smooth;
@@ -16,12 +17,13 @@ html, body {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #F2F4F8;
   color: #2C2C2C;
+  background-color: #F2F4F8;
 }
 
 .page-container {
   overflow: hidden;
+  background-color: #F2F4F8;
 }
 
 .sections {

@@ -49,7 +49,7 @@ const safeArea = window.innerHeight * 0.2;
 menuItems.forEach(function(item) {
   var sectionTarget = document.getElementById(item.getAttribute('section-target'));
   var sectionTargetPosition = window.scrollY + sectionTarget.getBoundingClientRect().y;
-
+  
   // Atualizar valores
   window.addEventListener('resize', function() {
     sectionTargetPosition = window.scrollY + sectionTarget.getBoundingClientRect().y;
@@ -81,3 +81,56 @@ menuItems.forEach(function(item) {
   });
 
 });
+
+// # ANIMNAÇÃO DE SCROLL
+
+const itemsToAnimate = document.querySelectorAll('[animated-display]');
+const animatedClass = 'animated';
+
+function setAnimation() {
+  itemsToAnimate.forEach(function(item) {
+    let safeArea = window.innerHeight * 0.9;
+    let itemPosition = item.getBoundingClientRect().y + window.scrollY - safeArea;
+
+    if(item.getAttribute('animated-display-delay')) {
+      item.style.transitionDelay = item.getAttribute('animated-display-delay') + 's';
+    }
+
+    let waitingItems = null;
+    if(item.getAttribute('animated-display-trigger'))
+      waitingItems = document.querySelectorAll('[animated-display-wait="'+ item.getAttribute('animated-display-trigger') +'"]')
+
+    if(window.scrollY >= itemPosition) {
+      item.classList.add(animatedClass);
+
+      if(waitingItems) {
+        waitingItems.forEach(function(item) {
+          item.classList.add(animatedClass);
+        })
+      }
+    }
+  });
+}
+
+window.addEventListener('load', function() {
+  setAnimation();
+
+  window.addEventListener('scroll', function() {
+    setAnimation();
+  });
+
+});
+
+// # RODAPÉ FIXO
+
+const footerContainer = document.querySelector('footer.fixed-footer');
+const beforeFooterContainer = footerContainer.previousElementSibling;
+function setStylesBeforeFooterElement() {
+  beforeFooterContainer.style.position = 'relative';
+  beforeFooterContainer.style.zIndex = 2;
+  beforeFooterContainer.style.marginBottom = footerContainer.getBoundingClientRect().height + 'px';
+}
+
+setStylesBeforeFooterElement();
+
+window.addEventListener('resize', function(){ setStylesBeforeFooterElement(); });

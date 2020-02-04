@@ -36,7 +36,8 @@
   margin-bottom: 15px;
 }
 
-.contact-form .form-input input, .contact-form .form-input textarea {
+.contact-form .form-input input,
+.contact-form .form-input textarea {
   width: 100%;
   border: none;
   background-color: #F2F4F8;
@@ -47,6 +48,7 @@
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  resize: none;
 }
 
 .contact-form form button {

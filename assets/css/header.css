@@ -123,10 +123,14 @@
   -o-transform: rotate(-45deg) translateY(-50%);
 }
 
-.page-logo > h1 {
+.page-logo > h1 > a {
   font-weight: 700;
   color: #ecbf2c;
   margin: 0;
+}
+
+.page-logo > h1 > a:hover {
+  text-decoration: none;
 }
 
 .page-topbar-items {
@@ -177,6 +181,11 @@
 
 .page-topbar-items > .page-topbar-item.btn-download-app > a:hover {
   background-color: #FFFFFF;
+  color: #ecbf2c;
+}
+
+.page-topbar-container.fixed .page-topbar-items > .page-topbar-item.btn-download-app > a:hover {
+  background-color: #2C2C2C;
   color: #ecbf2c;
 }
 
