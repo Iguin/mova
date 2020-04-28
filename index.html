@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,53 +17,57 @@
     </div>
   </div>
 
+  <header class="page-topbar">
+    <div class="d-flex align-items-center page-topbar-container">
+      <nav class="container page-topbar-content">
+        <div class="row align-items-center">
+          <div class="col-lg-4 col-6">
+            <div class="page-logo">
+              <h1>
+                <a href="#">Mova</a>
+              </h1>
+            </div>
+          </div>
+          <div class="col-6 menu-icon-container">
+            <div id="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="col-lg-8 position-static">
+            <div class="page-topbar-menu">
+              <ul class="page-topbar-items">
+                <li class="page-topbar-item">
+                  <a href="#" section-target="vantagens">Vantagens</a>
+                </li>
+                <li class="page-topbar-item">
+                  <a href="#" section-target="diferenciais">Diferenciais</a>
+                </li>
+                <li class="page-topbar-item">
+                  <a href="#" section-target="aplicativo">Aplicativo</a>
+                </li>
+                <li class="page-topbar-item">
+                  <a href="#" section-target="motorista">Motorista</a>
+                </li>
+                <li class="page-topbar-item">
+                  <a href="#" section-target="contato">Contato</a>
+                </li>
+                <li class="page-topbar-item btn-download-app">
+                  <a href="#">Baixar app</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
   <main class="page-container">
     <!-- SESSÃO HOME -->
     <section class="section-home">
       <img src="./assets/images/section-home-bg.png" class="bg" />
-      <header class="page-topbar">
-        <div class="d-flex align-items-center page-topbar-container">
-          <nav class="container page-topbar-content">
-            <div class="row align-items-center">
-              <div class="col-lg-4 col-6">
-                <div class="page-logo">
-                  <h1>
-                    <a href="#">Mova</a>
-                  </h1>
-                </div>
-              </div>
-              <div class="col-6 menu-icon-container">
-                <div id="menu-icon">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-              <div class="col-lg-8 position-static">
-                <div class="page-topbar-menu">
-                  <ul class="page-topbar-items">
-                    <li class="page-topbar-item">
-                      <a href="#" section-target="vantagens">Vantagens</a>
-                    </li>
-                    <li class="page-topbar-item">
-                      <a href="#" section-target="diferenciais">Diferenciais</a>
-                    </li>
-                    <li class="page-topbar-item">
-                      <a href="#" section-target="aplicativo">Aplicativo</a>
-                    </li>
-                    <li class="page-topbar-item">
-                      <a href="#" section-target="contato">Contato</a>
-                    </li>
-                    <li class="page-topbar-item btn-download-app">
-                      <a href="#">Baixar app</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </header>
       <div class="container section-home-infos">
         <div class="row">
           <div class="col-md-6" animated-display="fadeIn" animated-display-delay="0.3">
@@ -348,6 +352,41 @@
       </div>
     </section>
     <!-- FIM DA SESSÃO APLICATIVO -->
+
+    <!-- SESSÃO MOTORISTAS -->
+    <section class="sections section-motorista" id="motorista">
+      
+      <video autoplay muted loop class="bg-video">
+        <source src="./assets/videos/motovideo.mp4" type="video/mp4">
+      </video>
+
+      <div class="container position-relative">
+        <div class="default-title white text-center">
+          <h1>
+            Já pensou em ter uma <span>renda extra</span>?
+          </h1>
+          <h5 class="white">
+            Basta seguir algumas etapas para juntar-se à nós
+          </h5>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-6">
+            <div class="drivers-info">
+              <p class="text-center text-white">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur doloremque modi praesentium, magni, itaque fuga ullam harum accusamus voluptatum necessitatibus aliquam maxime! Accusamus dolores tenetur quos, dolor dignissimos earum dolore?
+              </p>
+              <a href="./pages/drivers-steps.html">
+                <i class="fas fa-motorcycle"></i>
+                <i class="fas fa-chevron-right"></i>
+                <span>Como faço isso?</span>                
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- FIM DA SESSÃO MOTORISTA -->
 
     <!-- SESSÃO FALE CONOSCO -->
     <section class="sections section-fale-conosco" id="contato">

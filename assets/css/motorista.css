@@ -1,0 +1,81 @@
+.section-motorista {
+  position: relative;
+  overflow: hidden;
+  background-color: #101010;
+  /* background-image: url('../images/bg_motorista.png'); */
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: soft-light;
+}
+
+.section-motorista video.bg-video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: .5;;
+}
+
+.drivers-info p {
+  margin-bottom: 30px;
+}
+
+.drivers-info a {
+  position: relative;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  transition-delay: 0s;
+}
+
+.drivers-info a span {
+  position: relative;
+}
+
+.drivers-info a svg {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  transition: 300ms ease;
+  -webkit-transition: 300ms ease;
+  -moz-transition: 300ms ease;
+  -ms-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.drivers-info a svg.fa-motorcycle {
+  left: 10px;
+  transition-delay: 0s;
+}
+
+.drivers-info a svg.fa-chevron-right {
+  right: 10px;
+  opacity: 0;
+}
+
+.drivers-info a:hover svg.fa-motorcycle {
+  left: 90%;
+  opacity: 0;
+}
+
+.drivers-info a:hover svg.fa-chevron-right {
+  opacity: 1;
+  transition-delay: 200ms;
+}

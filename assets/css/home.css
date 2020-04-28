@@ -1,0 +1,37 @@
+.section-home {
+  position: relative;
+  padding-top: 100px;
+}
+
+.section-home > img.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120%;
+  width: 100%;
+}
+
+.section-home-info {
+  margin-top: 150px;
+}
+
+.section-home-info > h1 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ecbf2c;
+}
+
+.section-home-info > p {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 30px 0;
+}
+
+.section-home-phone-demo {
+  margin-top: 50px;
+}
+
+.section-home-phone-demo img {
+  width: 100%;
+  max-width: 250px;
+}

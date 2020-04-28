@@ -1,19 +1,8 @@
-.section-home {
-  position: relative;
-}
-
-.section-home > img.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 120%;
-  width: 100%;
-}
-
 .page-topbar,
 .page-topbar-container {
   height: 80px;
-  position: relative;
+  position: absolute;
+  width: 100%;
   z-index: 10;
 }
 
@@ -187,29 +176,4 @@
 .page-topbar-container.fixed .page-topbar-items > .page-topbar-item.btn-download-app > a:hover {
   background-color: #2C2C2C;
   color: #ecbf2c;
-}
-
-.section-home-info {
-  margin-top: 150px;
-}
-
-.section-home-info > h1 {
-  font-weight: 700;
-  font-size: 30px;
-  color: #ecbf2c;
-}
-
-.section-home-info > p {
-  color: #FFFFFF;
-  font-size: 14px;
-  margin: 30px 0;
-}
-
-.section-home-phone-demo {
-  margin-top: 50px;
-}
-
-.section-home-phone-demo img {
-  width: 100%;
-  max-width: 250px;
 }
