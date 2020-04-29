@@ -1,10 +1,10 @@
 // # LOADING
 
-// const loadingContainer = document.querySelector('#loading');
+const loadingContainer = document.querySelector('#loading');
 
-// window.addEventListener('load', function() {
-//   loadingContainer.classList.add('loaded');
-// });
+window.addEventListener('load', function() {
+  loadingContainer.classList.add('loaded');
+});
 
 // # MENU FIXO
 
