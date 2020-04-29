@@ -1,5 +1,6 @@
 @import './bootstrap/bootstrap.min.css';
 @import './fontawesome/css/all.min.css';
+@import './animated-display.min.css';
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap');
 @import './header.css';
 @import './home.css';
@@ -11,7 +12,6 @@
 @import './footer.css';
 @import './loading.css';
 @import './responsive.css';
-@import './animated-display.css';
 
 html, body {
   scroll-behavior: smooth;

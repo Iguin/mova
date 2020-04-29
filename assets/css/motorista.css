@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.drivers-info a svg {
+.drivers-info a i {
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -60,22 +60,22 @@
   -o-transform: translateY(-50%);
 }
 
-.drivers-info a svg.fa-motorcycle {
+.drivers-info a i.fa-motorcycle {
   left: 10px;
   transition-delay: 0s;
 }
 
-.drivers-info a svg.fa-chevron-right {
+.drivers-info a i.fa-chevron-right {
   right: 10px;
   opacity: 0;
 }
 
-.drivers-info a:hover svg.fa-motorcycle {
+.drivers-info a:hover i.fa-motorcycle {
   left: 90%;
   opacity: 0;
 }
 
-.drivers-info a:hover svg.fa-chevron-right {
+.drivers-info a:hover i.fa-chevron-right {
   opacity: 1;
   transition-delay: 200ms;
 }
