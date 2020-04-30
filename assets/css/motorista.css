@@ -48,11 +48,11 @@
   font-size: 30px;
   position: absolute;
   top: 50%;
-  transition: 300ms ease;
-  -webkit-transition: 300ms ease;
-  -moz-transition: 300ms ease;
-  -ms-transition: 300ms ease;
-  -o-transition: 300ms ease;
+  transition: 500ms ease;
+  -webkit-transition: 500ms ease;
+  -moz-transition: 500ms ease;
+  -ms-transition: 500ms ease;
+  -o-transition: 500ms ease;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
