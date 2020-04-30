@@ -159,8 +159,9 @@
 
 .page-topbar-container .page-topbar-items > .page-topbar-item.btn-download-app > a {
   font-size: 12px;
-  background-color: #ecbf2c;
-  color: #FFFFFF;
+  font-weight: 700;
+  color: #111111;
+  background-color: #FFFFFF;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -169,11 +170,16 @@
 }
 
 .page-topbar-items > .page-topbar-item.btn-download-app > a:hover {
-  background-color: #FFFFFF;
-  color: #ecbf2c;
+  color: #111111;
+  background-color: #ecbf2c;
+}
+
+.page-topbar-container.fixed .page-topbar-items > .page-topbar-item.btn-download-app > a {
+  background-color: #111111;
+  color: #FFFFFF;
 }
 
 .page-topbar-container.fixed .page-topbar-items > .page-topbar-item.btn-download-app > a:hover {
-  background-color: #2C2C2C;
+  background-color: #111111;
   color: #ecbf2c;
 }
