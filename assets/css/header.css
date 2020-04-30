@@ -159,6 +159,7 @@
 
 .page-topbar-container .page-topbar-items > .page-topbar-item.btn-download-app > a {
   font-size: 12px;
+  margin-left: 20px;
   font-weight: 700;
   color: #111111;
   background-color: #FFFFFF;
