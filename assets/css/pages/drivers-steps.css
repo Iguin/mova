@@ -112,11 +112,6 @@ a.btn-download-app {
   -o-border-radius: 50%;
 }
 
-.step-text ul li em {
-  color: #000000;
-  opacity: .6;
-}
-
 .step-text ul.subitem {
   margin-left: 40px;
   margin-top: 10px;
