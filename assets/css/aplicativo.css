@@ -1,17 +1,22 @@
+.section-app {
+  background-color: #FFFFFF;
+}
+
 .app-info {
   margin-bottom: 20px;
 }
 
 .app-img > img {
-  max-width: 300px;
+  width: 100%;
+  max-width: 250px;
 }
 
 .app-info-icon {
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   color: #eba350;
   border: 2px solid #ecbf2c;
   border-radius: 50%;
